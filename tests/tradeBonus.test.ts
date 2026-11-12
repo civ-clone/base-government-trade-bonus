@@ -31,8 +31,8 @@ describe('tradeBonus', (): void => {
     expect(bonus(Coin, 2, null, true)).to.equal(2);
   });
 
-  it('takes the amount and the threshold as parameters', (): void => {
-    const larger = tradeBonus(Coin, [Free], [], 2, 1);
+  it('takes the threshold and the amount as parameters', (): void => {
+    const larger = tradeBonus(Coin, [Free], [], 1, 2);
 
     expect(larger(Coin, 1, governmentOf(Free))).to.equal(1);
     expect(larger(Coin, 2, governmentOf(Free))).to.equal(4);

@@ -1,7 +1,7 @@
 {
   "name": "@civ-clone/base-government-trade-bonus",
   "version": "0.1.0",
-  "description": "A government's bonus on a square's trade, by government and when the city is celebrating, and the difference celebrating makes to the squares a city works.",
+  "description": "A government's bonus on a square's trade: a yield of the given type that has some gains an amount, by government and when the city is celebrating.",
   "repository": "git@github.com:civ-clone/base-government-trade-bonus.git",
   "keywords": [
     "typescript",
@@ -30,9 +30,7 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "@civ-clone/core-city": "^0.1.24",
     "@civ-clone/core-government": "^0.1.6",
-    "@civ-clone/core-world": "^0.1.23",
     "@civ-clone/core-yield": "^0.1.6"
   }
 }

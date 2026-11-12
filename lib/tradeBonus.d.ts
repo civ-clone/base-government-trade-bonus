@@ -19,7 +19,7 @@ export declare const tradeBonus: (
   BonusYieldType: typeof Yield,
   Governments: (typeof Government)[],
   CelebratingGovernments: (typeof Government)[],
-  amount?: number,
-  threshold?: number
+  threshold?: number,
+  amount?: number
 ) => TradeBonus;
 export default tradeBonus;
